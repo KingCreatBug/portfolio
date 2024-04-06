@@ -650,21 +650,21 @@ select {
     }
 
     40% {
-        top: 20px;
+        bottom: 10px;
         left: 328px;
         scale: 1.1;
         rotate: 144deg;
     }
 
     60% {
-        top: -50px;
+        bottom: 40px;
         left: 43px;
         scale: 0.9;
         rotate: 216deg;
     }
 
     80% {
-        top: 100px;
+        bottom: 100px;
         left: -142px;
         rotate: 288deg;
         scale: 1.2;
