@@ -868,6 +868,8 @@ select {
 .prod-drawer__tag {
     padding: 5px 10px;
     border-radius: 99px;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: #fff;
 }
 
