@@ -790,6 +790,7 @@ select {
 .prod-btn {
     margin-top: 55px;
     background: var(--color-text-primary);
+    cursor: pointer;
 }
 
 .prod-drawer__overlay {
@@ -862,6 +863,24 @@ select {
     background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
     background-clip: text;
     color: transparent;
+}
+
+.prod-drawer__tag {
+    padding: 5px 10px;
+    border-radius: 99px;
+    color: #fff;
+}
+
+.prod-drawer__tag--orange {
+    background: #fc4f13;
+}
+
+.prod-drawer__tag--pink {
+    background: #d1699d;
+}
+
+.prod-drawer__tag--yellow {
+    background: #f7e025;
 }
 
 .prod-drawer__img {
