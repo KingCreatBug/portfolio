@@ -497,11 +497,11 @@ select {
 .journey-info__icon {
     position: absolute;
     object-fit: cover;
+    width: 148px;
+    height: 148px;
 }
 
 .journey-info__icon:first-child {
-    width: 148px;
-    height: 148px;
     top: -50px;
     left: 43px;
     animation-name: example1;
@@ -548,8 +548,6 @@ select {
 }
 
 .journey-info__icon:nth-child(2) {
-    width: 100px;
-    height: 100px;
     top: 20px;
     left: 328px;
     animation-name: example2;
@@ -596,8 +594,6 @@ select {
 }
 
 .journey-info__icon:nth-child(3) {
-    width: 80px;
-    height: 80px;
     top: 100px;
     left: -142px;
     border-radius: 8px;
@@ -645,8 +641,6 @@ select {
 }
 
 .journey-info__icon:nth-child(4) {
-    width: 126px;
-    height: 126px;
     left: 27px;
     bottom: -60px;
     animation-name: example4;
@@ -680,6 +674,98 @@ select {
     60% {
         bottom: 40px;
         left: 43px;
+        scale: 0.9;
+        rotate: 216deg;
+    }
+
+    80% {
+        bottom: 100px;
+        left: -142px;
+        rotate: 288deg;
+        scale: 1.2;
+    }
+}
+
+.journey-info__icon:nth-child(5) {
+    left: 27px;
+    bottom: -60px;
+    animation-name: example5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example5 {
+    0%,
+    100% {
+        left: -10px;
+        bottom: -90px;
+        scale: 0.8;
+        rotate: 0deg;
+    }
+
+    20% {
+        left: 242px;
+        bottom: -15px;
+        scale: 1;
+        rotate: 72deg;
+    }
+
+    40% {
+        bottom: 10px;
+        left: 328px;
+        scale: 1.1;
+        rotate: 144deg;
+    }
+
+    60% {
+        bottom: 40px;
+        left: 43px;
+        scale: 0.9;
+        rotate: 216deg;
+    }
+
+    80% {
+        bottom: 100px;
+        left: -142px;
+        rotate: 288deg;
+        scale: 1.2;
+    }
+}
+
+.journey-info__icon:nth-child(6) {
+    left: 27px;
+    bottom: -60px;
+    animation-name: example6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example6 {
+    0%,
+    100% {
+        left: -27px;
+        bottom: 60px;
+        scale: 0.8;
+        rotate: 0deg;
+    }
+
+    20% {
+        left: 282px;
+        bottom: 15px;
+        scale: 1;
+        rotate: 72deg;
+    }
+
+    40% {
+        bottom: -10px;
+        left: 248px;
+        scale: 1.1;
+        rotate: 144deg;
+    }
+
+    60% {
+        bottom: -40px;
+        left: -43px;
         scale: 0.9;
         rotate: 216deg;
     }
@@ -1325,6 +1411,10 @@ select {
     color: #665f73;
     line-height: 1.75;
     transition: 0.5s;
+}
+
+.footer__link-text {
+    margin-top: 0;
 }
 
 .footer-list__img {
